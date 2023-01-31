@@ -1,2 +1,14 @@
-package ru.volokitin.redis;public class Language {
+package ru.volokitin.redis;
+
+import lombok.Getter;
+import lombok.Setter;
+
+import java.math.BigDecimal;
+
+@Getter
+@Setter
+public class Language {
+    private String language;
+    private Boolean isOfficial;
+    private BigDecimal percentage;
 }
